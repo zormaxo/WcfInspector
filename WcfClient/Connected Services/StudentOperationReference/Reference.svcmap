@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bf53928e-7078-4d42-9f2a-774d65a4f567" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58794/StudentOperationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="StudentOperationService.xsd" MetadataType="Schema" ID="b147b58f-f5e1-49cb-868f-8ddd160aac55" SourceId="1" SourceUrl="http://localhost:58794/StudentOperationService.svc?xsd=xsd1" />
+    <MetadataFile FileName="StudentOperationService1.xsd" MetadataType="Schema" ID="8d8d1755-76fd-45d0-a925-fd991e642413" SourceId="1" SourceUrl="http://localhost:58794/StudentOperationService.svc?xsd=xsd0" />
+    <MetadataFile FileName="StudentOperationService2.xsd" MetadataType="Schema" ID="c20a5c5f-60b8-4985-9cd5-384e4368fd79" SourceId="1" SourceUrl="http://localhost:58794/StudentOperationService.svc?xsd=xsd2" />
+    <MetadataFile FileName="StudentOperationService.wsdl" MetadataType="Wsdl" ID="0da19ee7-3aa1-46ce-bfa9-c744024957b8" SourceId="1" SourceUrl="http://localhost:58794/StudentOperationService.svc?wsdl" />
+    <MetadataFile FileName="StudentOperationService.disco" MetadataType="Disco" ID="b2f9cc79-ed41-4495-afa5-3afc3862571c" SourceId="1" SourceUrl="http://localhost:58794/StudentOperationService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
